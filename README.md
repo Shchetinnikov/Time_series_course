@@ -35,10 +35,9 @@
 
 ## Ход работы
 
-1. Проведен разведочный анализ данных (см. `./notebooks/EDA.ipynb`)
-2. Объединение данных (см. `./notebooks/join_data.ipynb`)
-3. Рассмотрены 3 модели для прогнозирования рядов:
-    - STL (см. `./notebooks/join_data.ipynb`)
-    - Autoarima (см. `./notebooks/autoarima.ipynb`)
-    - Prophet (см. `./notebooks/prophet.ipynb`)
-4. Реализован класс для прознозирования рядов (см. `./notebooks/class.ipynb`)
+1. Проведено объединение данных, преобразование и разведочный анализ данных (см. `./notebooks/EDA.ipynb`)
+2. Рассмотрены 3 модели для прогнозирования рядов (см. `./notebooks/models.ipynb`):
+    - SARIMA
+    - Fourier
+    - Prophet
+3. Реализован класс для прознозирования рядов (см. `./notebooks/class.ipynb`)
